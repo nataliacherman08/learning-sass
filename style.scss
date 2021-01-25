@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('assets/font/OpenSans-Light-webfont.eot') format('embedded-opentype');
+    src: url('assets/font/OpenSans-Light-webfont.svg') format('svg'),
+         url('assets/font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('assets/font/OpenSans-Light-webfont.woff') format('woff');
+    font: {
+        weight: normal;
+        size: normal;
+    }
+}
+
+$small-red:#e53d27;
+$white: #fff;
+$grey: #9b9a98;
+$black: #000;
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 15px $black;
+    width: 400px;
+    font-family: 'open_sanslight';
+}
+
+.rectangle
+{
+    background-color: $small-red;
+    width: 4em;
+    text-align: center;
+    padding: 0.5em 0.8em;
+    color:$white;
+    position: absolute;
+    z-index: 3;
+    top: 21em;
+}
+
+.circle
+{
+    @extend.rectangle;
+    border-radius: 50%;
+    width: 3em;
+    padding: 0.5em 0.3em;
+    top: 1em;
+    left: 20em;
+}
+
+h2
+{
+    color: $small-red;
+}
+
+section
+{
+    background-color: $white;
+    width: 390px;
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 23em;
+}
+
+div
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $grey;
+    margin: 5px 5px;
+}
+
+.taj
+{
+    width: 400px;
+    height: 600px;
+}
+

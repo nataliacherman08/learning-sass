@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("assets/font/OpenSans-Light-webfont.eot") format("embedded-opentype");
+  src: url("assets/font/OpenSans-Light-webfont.svg") format("svg"), url("assets/font/OpenSans-Light-webfont.ttf") format("truetype"), url("assets/font/OpenSans-Light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-size: normal;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 10px 10px 15px #000;
+          box-shadow: 10px 10px 15px #000;
+  width: 400px;
+  font-family: 'open_sanslight';
+}
+
+.rectangle, .circle {
+  background-color: #e53d27;
+  width: 4em;
+  text-align: center;
+  padding: 0.5em 0.8em;
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  top: 21em;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 3em;
+  padding: 0.5em 0.3em;
+  top: 1em;
+  left: 20em;
+}
+
+h2 {
+  color: #e53d27;
+}
+
+section {
+  background-color: #fff;
+  width: 390px;
+  padding: 5px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 23em;
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9b9a98;
+  margin: 5px 5px;
+}
+
+.taj {
+  width: 400px;
+  height: 600px;
+}
+/*# sourceMappingURL=style.css.map */
