@@ -85,4 +85,8 @@ div {
   width: 400px;
   height: 600px;
 }
+
+.taj:hover {
+  opacity: 0.5;
+}
 /*# sourceMappingURL=style.css.map */
