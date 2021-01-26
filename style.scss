@@ -18,7 +18,7 @@ $black: #000;
 
 html
 {
-    background-color: $grey;
+    background-color: #f0f0f0;
 }
 
 main
@@ -28,7 +28,11 @@ main
     align-items: center;
     justify-content: center;
     width: 400px;
+    height: 600px;
     font-family: 'Open Sans Light';
+    &:hover {
+        box-shadow: 10px 10px 10px $grey;
+    }
 }
 
 .rectangle
@@ -39,7 +43,7 @@ main
     padding: 0.5em 0.8em;
     color:$white;
     position: fixed;
-    top: 300px;
+    top: 250px;
     left: 8px;
 }
 
@@ -65,7 +69,7 @@ section
     width: 360px;
     padding: 20px;
     position: absolute;
-    top: 340px;
+    top: 300px;
 }
 
 div

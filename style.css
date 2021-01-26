@@ -7,7 +7,7 @@
 }
 
 html {
-  background-color: #9b9a98;
+  background-color: #f0f0f0;
 }
 
 main {
@@ -25,7 +25,13 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   width: 400px;
+  height: 600px;
   font-family: 'Open Sans Light';
+}
+
+main:hover {
+  -webkit-box-shadow: 10px 10px 10px #9b9a98;
+          box-shadow: 10px 10px 10px #9b9a98;
 }
 
 .rectangle, .circle {
@@ -35,7 +41,7 @@ main {
   padding: 0.5em 0.8em;
   color: #fff;
   position: fixed;
-  top: 300px;
+  top: 250px;
   left: 8px;
 }
 
@@ -57,7 +63,7 @@ section {
   width: 360px;
   padding: 20px;
   position: absolute;
-  top: 340px;
+  top: 300px;
 }
 
 div {
