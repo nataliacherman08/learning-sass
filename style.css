@@ -21,11 +21,20 @@ figure:hover {
           box-shadow: 10px 10px 10px #2b2b2b;
 }
 
+h3 {
+  color: #e53d27;
+}
+
 .photos {
   background: #e53d27;
   color: #fff;
   text-align: center;
   padding: 5px 5px;
   width: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: #9b9a98;
 }
 /*# sourceMappingURL=style.css.map */

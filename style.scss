@@ -31,7 +31,13 @@ figure
         box-shadow: 10px 10px 10px $darkgrey;
     }
 }
+//Picture
 
+h3
+{
+    color: $red;
+}
+//Red rectangle
 .photos
 {
     background: $red;
@@ -39,4 +45,10 @@ figure
     text-align: center;
     padding: 5px 5px;
     width: 70px;
+}
+
+a
+{
+    text-decoration: none;
+    color: $fairgrey;
 }
