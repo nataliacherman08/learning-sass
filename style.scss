@@ -25,26 +25,21 @@ html
 {
     width: 400px;
     height: 300px;
-    margin: -15px 0 0 -40px;
     &:hover {
         opacity: 0.5;
-    }
-}
-
-main
-{
-    width: 400px;
-    height: 500px;
-    font-family: 'Open Sans Light';
-    &:hover {
         box-shadow: 10px 10px 10px $grey;
     }
 }
 
-
-h2
-{
-    color: $red;
+figcaption
+{   
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    width: 360px;
+    height: 200px;
+    padding: 20px;
+    font-family: 'Open Sans Light';
 }
 
 .hide
@@ -54,8 +49,5 @@ h2
 
 section
 {
-    background-color: $white;
-    width: 360px;
-    height: 200px;
-    padding: 20px;
+    
 }

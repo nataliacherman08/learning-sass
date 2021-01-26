@@ -13,36 +13,30 @@ html {
 .india {
   width: 400px;
   height: 300px;
-  margin: -15px 0 0 -40px;
 }
 
 .india:hover {
   opacity: 0.5;
-}
-
-main {
-  width: 400px;
-  height: 500px;
-  font-family: 'Open Sans Light';
-}
-
-main:hover {
   -webkit-box-shadow: 10px 10px 10px #9b9a98;
           box-shadow: 10px 10px 10px #9b9a98;
 }
 
-h2 {
-  color: #e53d27;
-}
-
-.hide {
-  visibility: hidden;
-}
-
-section {
+figcaption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fff;
   width: 360px;
   height: 200px;
   padding: 20px;
+  font-family: 'Open Sans Light';
+}
+
+.hide {
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
