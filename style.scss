@@ -1,39 +1,46 @@
 @font-face {
-    font-family: 'open_sanslight';
     src: url('assets/font/OpenSans-Light-webfont.eot') format('embedded-opentype');
     src: url('assets/font/OpenSans-Light-webfont.svg') format('svg'),
          url('assets/font/OpenSans-Light-webfont.ttf') format('truetype'),
          url('assets/font/OpenSans-Light-webfont.woff') format('woff');
     font: {
+        family: 'Open Sans Light';
         weight: normal;
         size: normal;
     }
 }
 
-$small-red:#e53d27;
+//COLORS
+$red:#e53d27;
 $white: #fff;
 $grey: #9b9a98;
 $black: #000;
+
+html
+{
+    background-color: $grey;
+}
 
 main
 {
     display: flex;
     flex-direction: column;
-    box-shadow: 10px 10px 15px $black;
+    align-items: center;
+    justify-content: center;
     width: 400px;
-    font-family: 'open_sanslight';
+    font-family: 'Open Sans Light';
 }
 
 .rectangle
 {
-    background-color: $small-red;
+    background-color: $red;
     width: 4em;
     text-align: center;
     padding: 0.5em 0.8em;
     color:$white;
-    position: absolute;
-    z-index: 3;
-    top: 21em;
+    position: fixed;
+    top: 280px;
+    left: 8px;
 }
 
 .circle
@@ -42,23 +49,23 @@ main
     border-radius: 50%;
     width: 3em;
     padding: 0.5em 0.3em;
-    top: 1em;
-    left: 20em;
+    position: absolute;
+    top: 35px;
+    left: 335px;
 }
 
 h2
 {
-    color: $small-red;
+    color: $red;
 }
 
 section
 {
     background-color: $white;
-    width: 390px;
-    padding: 5px;
+    width: 380px;
+    padding: 10px;
     position: absolute;
-    z-index: 2;
-    margin-top: 23em;
+    top: 330px;
 }
 
 div
@@ -67,7 +74,7 @@ div
     flex-direction: row;
     align-items: center;
     color: $grey;
-    margin: 5px 5px;
+    margin: 10px 10px;
 }
 
 .taj

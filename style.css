@@ -1,9 +1,13 @@
 @font-face {
-  font-family: 'open_sanslight';
   src: url("assets/font/OpenSans-Light-webfont.eot") format("embedded-opentype");
   src: url("assets/font/OpenSans-Light-webfont.svg") format("svg"), url("assets/font/OpenSans-Light-webfont.ttf") format("truetype"), url("assets/font/OpenSans-Light-webfont.woff") format("woff");
+  font-family: 'Open Sans Light';
   font-weight: normal;
   font-size: normal;
+}
+
+html {
+  background-color: #9b9a98;
 }
 
 main {
@@ -14,10 +18,14 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-shadow: 10px 10px 15px #000;
-          box-shadow: 10px 10px 15px #000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 400px;
-  font-family: 'open_sanslight';
+  font-family: 'Open Sans Light';
 }
 
 .rectangle, .circle {
@@ -26,17 +34,18 @@ main {
   text-align: center;
   padding: 0.5em 0.8em;
   color: #fff;
-  position: absolute;
-  z-index: 3;
-  top: 21em;
+  position: fixed;
+  top: 280px;
+  left: 8px;
 }
 
 .circle {
   border-radius: 50%;
   width: 3em;
   padding: 0.5em 0.3em;
-  top: 1em;
-  left: 20em;
+  position: absolute;
+  top: 35px;
+  left: 335px;
 }
 
 h2 {
@@ -45,11 +54,10 @@ h2 {
 
 section {
   background-color: #fff;
-  width: 390px;
-  padding: 5px;
+  width: 380px;
+  padding: 10px;
   position: absolute;
-  z-index: 2;
-  margin-top: 23em;
+  top: 330px;
 }
 
 div {
@@ -64,7 +72,7 @@ div {
       -ms-flex-align: center;
           align-items: center;
   color: #9b9a98;
-  margin: 5px 5px;
+  margin: 10px 10px;
 }
 
 .taj {
