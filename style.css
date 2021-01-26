@@ -41,7 +41,7 @@ main:hover {
   padding: 0.5em 0.8em;
   color: #fff;
   position: fixed;
-  top: 250px;
+  top: 330px;
   left: 8px;
 }
 
@@ -63,7 +63,11 @@ section {
   width: 360px;
   padding: 20px;
   position: absolute;
-  top: 300px;
+  top: 380px;
+}
+
+.hide {
+  display: none;
 }
 
 div {

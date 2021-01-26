@@ -43,7 +43,7 @@ main
     padding: 0.5em 0.8em;
     color:$white;
     position: fixed;
-    top: 250px;
+    top: 330px;
     left: 8px;
 }
 
@@ -69,7 +69,15 @@ section
     width: 360px;
     padding: 20px;
     position: absolute;
-    top: 300px;
+    top: 380px;
+    &:hover {
+
+    }
+}
+
+.hide
+{
+    display: none;
 }
 
 div
