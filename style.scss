@@ -21,80 +21,41 @@ html
     background-color: #f0f0f0;
 }
 
+.india
+{
+    width: 400px;
+    height: 300px;
+    margin: -15px 0 0 -40px;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
 main
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 400px;
-    height: 600px;
+    height: 500px;
     font-family: 'Open Sans Light';
     &:hover {
         box-shadow: 10px 10px 10px $grey;
     }
 }
 
-.rectangle
-{
-    background-color: $red;
-    width: 4em;
-    text-align: center;
-    padding: 0.5em 0.8em;
-    color:$white;
-    position: fixed;
-    top: 330px;
-    left: 8px;
-}
-
-.circle
-{
-    @extend.rectangle;
-    border-radius: 50%;
-    width: 3em;
-    padding: 0.5em 0.3em;
-    position: absolute;
-    top: 35px;
-    left: 335px;
-}
 
 h2
 {
     color: $red;
 }
 
+.hide
+{
+    visibility: hidden;
+}
+
 section
 {
     background-color: $white;
     width: 360px;
+    height: 200px;
     padding: 20px;
-    position: absolute;
-    top: 380px;
-    &:hover {
-
-    }
 }
-
-.hide
-{
-    display: none;
-}
-
-div
-{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: $grey;
-    margin: 10px 10px;
-}
-
-.taj
-{
-    width: 400px;
-    height: 600px;
-    &:hover {
-        opacity: 0.5;
-    }
-}
-
