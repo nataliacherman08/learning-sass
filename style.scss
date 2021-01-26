@@ -27,18 +27,23 @@ html
     height: 300px;
     &:hover {
         opacity: 0.5;
-        box-shadow: 10px 10px 10px $grey;
     }
+}
+
+figure:hover
+{
+    box-shadow: 10px 10px 10px $grey;
+    width: 400px;
 }
 
 figcaption
 {   
     display: flex;
     flex-direction: column;
-    background-color: $white;
     width: 360px;
     height: 200px;
-    padding: 20px;
+    padding: 15px 20px;
+    margin-top: -3px;
     font-family: 'Open Sans Light';
 }
 
