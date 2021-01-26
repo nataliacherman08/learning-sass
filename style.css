@@ -38,9 +38,29 @@ figcaption {
   padding: 15px 20px;
   margin-top: -3px;
   font-family: 'Open Sans Light';
+  background: #fff;
 }
 
 .hide {
   visibility: hidden;
+}
+
+.photos {
+  background: #e53d27;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  width: 70px;
+  margin: -40px 20px 10px -20px;
+  position: absolute;
+}
+
+.links {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #9b9a98;
 }
 /*# sourceMappingURL=style.css.map */

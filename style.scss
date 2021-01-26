@@ -45,6 +45,7 @@ figcaption
     padding: 15px 20px;
     margin-top: -3px;
     font-family: 'Open Sans Light';
+    background: $white;
 }
 
 .hide
@@ -52,7 +53,42 @@ figcaption
     visibility: hidden;
 }
 
-section
+.title {
+    .secondTitle {
+      .hide {
+
+      }
+    }
+  }
+//SMALL RED PHOTOS
+.photos
 {
-    
+    background: $red;
+    color: $white;
+    text-align: center;
+    padding: 5px 5px;
+    width: 70px;
+    margin: -40px 20px 10px -20px;
+    position: absolute;
+}
+
+//TITLES
+.title
+{  
+}
+
+.secondTitle
+{
+}
+
+//LINKS
+.links 
+{
+    background: $white;
+}
+
+a
+{
+    text-decoration: none;
+    color: $grey;
 }
