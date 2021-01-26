@@ -22,27 +22,16 @@ html
     background-color: #f0f0f0;
 }
 
-//All = picture + caption
-figure:hover
+figure
 {
-    box-shadow: 10px 10px 10px $grey;
     width: 400px;
     max-height: 600px;
     font-family: 'Open Sans Light';
-}
-
-
-.india
-{
-    width: 400px;
-    height: auto;
     &:hover {
-        opacity: 0.5;
+        box-shadow: 10px 10px 10px $darkgrey;
     }
 }
 
-
-//SMALL RED PHOTOS
 .photos
 {
     background: $red;
@@ -50,12 +39,4 @@ figure:hover
     text-align: center;
     padding: 5px 5px;
     width: 70px;
-}
-
-//LINKS
-a
-{
-    text-decoration: none;
-    color: $grey;
-    margin-top: 0;
 }
